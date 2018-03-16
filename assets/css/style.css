@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Tangerine:400,700');
+
+body {
+    background-image: url("../img/notes.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#title h2 {
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    color: #942683;
+    margin-top: 0.2em;
+}
+
+#dataForm {
+    //margin-top: 50px;
+}
+
+#dataForm input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#btnCreate {
+    float: right;
+    background-color: #942683;
+    color: white;
+    font-weight: bold;
+}
+
+#btnCreate:hover{
+    background-color: black;
+}
+
+#tasks {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 25px;
+}
+
+.spanTask {
+    margin-left: 15px;
+}
+
+table {
+    font-weight: bold;
+    color: #942683;
+}
+
+.fa-trash-alt {
+    color: red;
+}
+
+.fa-trash-alt:hover {
+    cursor:pointer;
+}
